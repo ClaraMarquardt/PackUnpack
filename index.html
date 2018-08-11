@@ -12,7 +12,7 @@
 
       <p style="text-align:center;"><font color="#464241">
 
-      By the time I turned 20 I had lived in 16 cities and 4 countries. <br>A year later I would yet again pack my bags to move to a new continent. <br>This visualization is intended as a long and ever variable answer to a short question - <i>Where Am I From?</i></font></p>
+      By the time I turned 20 I had lived in 16 cities and 5 countries. <br>A year later I would yet again pack my bags to move to a new continent. <br>This visualization is intended as a long and ever variable answer to a short question - <i>Where Are You From?</i></font></p>
 
 </div>
 
@@ -160,26 +160,55 @@ function offHover(city_tag)
   
 
 // change to image tag
-$('#city_1_img').attr("src",city_1_url);
-$('#city_2_img').attr("src",city_2_url);
-$('#city_3_img').attr("src",city_3_url);
-$('#city_4_img').attr("src",city_4_url);
-$('#city_5_img').attr("src",city_5_url);
-$('#city_6_img').attr("src",city_6_url);
-$('#city_7_img').attr("src",city_7_url);
-$('#city_8_img').attr("src",city_8_url);
-$('#city_9_img').attr("src",city_9_url);
-$('#city_10_img').attr("src",city_10_url);
-$('#city_11_img').attr("src",city_11_url);
-$('#city_12_img').attr("src",city_12_url);
-$('#city_13_img').attr("src",city_13_url);
-$('#city_14_img').attr("src",city_14_url);
-$('#city_15_img').attr("src",city_15_url);
-$('#city_16_img').attr("src",city_16_url);
-$('#city_17_img').attr("src",city_17_url);
-$('#city_18_img').attr("src",city_18_url);
-$('#city_19_img').attr("src",city_19_url);
-$('#city_20_img').attr("src",city_20_url);
+var imgAddresses = [city_1_url,city_2_url,city_3_url,city_4_url,city_5_url, city_6_url, city_7_url, city_8_url, city_9_url,city_10_url, city_11_url, city_12_url, city_13_url, city_14_url, city_15_url, city_16_url, city_17_url, city_18_url, city_19_url, city_20_url]
+var imgID = ["city_1_img",'city_2_img',"city_3_img","city_4_img","city_5_img", "city_6_img", "city_7_img", "city_8_img", "city_9_img","city_10_img", "city_11_img", "city_12_img", "city_13_img", "city_14_img", "city_15_img", "city_16_img", "city_17_img", "city_18_img", "city_19_img", "city_20_img"]
+var imgOrder = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+var imgOrder_shuffle = imgOrder.sort(function() { return 0.5 - Math.random() });
+
+function loadImage(counter) {
+
+  var url_temp = imgAddresses[imgOrder_shuffle[counter]]
+  var img_temp = imgID[imgOrder_shuffle[counter]]
+  console.log(url_temp)
+  console.log(img_temp)
+  console.log(counter)
+
+  // Break out if no more images
+  if (counter==imgOrder.length) { return; }
+
+  // Grab an image obj
+  var I = document.getElementById(img_temp);
+
+  // Monitor load or error events, moving on to next image in either case
+  I.onload = I.onerror = function() { loadImage(counter+1); }
+
+  //Change source (then wait for event)
+  I.src = url_temp;
+}
+
+loadImage(0);
+
+
+// $('#city_1_img').attr("src",city_1_url);
+// $('#city_2_img').attr("src",city_2_url);
+// $('#city_3_img').attr("src",city_3_url);
+// $('#city_4_img').attr("src",city_4_url);
+// $('#city_5_img').attr("src",city_5_url);
+// $('#city_6_img').attr("src",city_6_url);
+// $('#city_7_img').attr("src",city_7_url);
+// $('#city_8_img').attr("src",city_8_url);
+// $('#city_9_img').attr("src",city_9_url);
+// $('#city_10_img').attr("src",city_10_url);
+// $('#city_11_img').attr("src",city_11_url);
+// $('#city_12_img').attr("src",city_12_url);
+// $('#city_13_img').attr("src",city_13_url);
+// $('#city_14_img').attr("src",city_14_url);
+// $('#city_15_img').attr("src",city_15_url);
+// $('#city_16_img').attr("src",city_16_url);
+// $('#city_17_img').attr("src",city_17_url);
+// $('#city_18_img').attr("src",city_18_url);
+// $('#city_19_img').attr("src",city_19_url);
+// $('#city_20_img').attr("src",city_20_url);
 
 </script>
 </body>

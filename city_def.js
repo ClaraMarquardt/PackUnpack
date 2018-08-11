@@ -272,7 +272,7 @@ var city_17="Cambridge,MA"
 var city_17_vis = "vis/index_city_17.html"
 var city_17_label_1 = "Cambridge, US"
 var city_17_label_2 = "| 8 Months"
-var city_17_label_3 = "|| Attending University (Post-Grad)"
+var city_17_label_3 = "|| Attending University (MA)"
 var city_17_coordinate_1 = 42.3736
 var city_17_coordinate_2 = 71.1097
 
