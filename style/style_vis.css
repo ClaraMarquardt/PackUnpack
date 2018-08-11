@@ -1,0 +1,15 @@
+body {background: black;}
+
+h1 {
+   font: italic bold 2.2em Lora; 
+   color: #BBB; 
+   margin: 0px;
+}
+
+p {
+   margin-top: 1.2em;
+   margin-bottom: 0.3em;
+   font: 1em Muli; 
+   color: #BBB;
+}
+
