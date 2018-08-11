@@ -7,9 +7,9 @@ zoom_max=19
 
 // Variable Def
 
-zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 
 // * city_1
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_1="Osnabrueck"
 var city_1_vis = "vis/index_city_1.html"
 var city_1_label_1 = "Osnabrueck, Germany"
@@ -25,6 +25,7 @@ if (online==true) {
 }
 
 // * city_2
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_2="Wiesbaden"
 var city_2_vis = "vis/index_city_2.html"
 var city_2_label_1 = "Wiesbaden, Germany"
@@ -40,6 +41,7 @@ if (online==true) {
 }
 
 // * city_3
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_3="Kassel"
 var city_3_vis = "vis/index_city_3.html"
 var city_3_label_1 = "Kassel, Germany"
@@ -55,6 +57,7 @@ if (online==true) {
 }
 
 // * city_4
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_4="Karlsruhe,Waldstadt"
 var city_4_vis = "vis/index_city_4.html"
 var city_4_label_1 = "Karlsruhe, Germany"
@@ -70,6 +73,7 @@ if (online==true) {
 }
 
 // * city_5
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_5="Karlsruhe"
 var city_5_vis = "vis/index_city_5.html"
 var city_5_label_1 = "Karlsruhe, Germany"
@@ -85,6 +89,7 @@ if (online==true) {
 }
 
 // * city_6
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_6="Copenhagen"
 var city_6_vis = "vis/index_city_6.html"
 var city_6_label_1 = "København (Copenhagen), Denmark"
@@ -100,6 +105,7 @@ if (online==true) {
 }
 
 // * city_7
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_7="Karlsruhe"
 var city_7_vis = "vis/index_city_7.html"
 var city_7_label_1 = "Karlsruhe, Germany"
@@ -115,6 +121,7 @@ if (online==true) {
 }
 
 // * city_8
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_8="Frankfurt"
 var city_8_vis = "vis/index_city_8.html"
 var city_8_label_1 = "Frankfurt, Germany"
@@ -130,6 +137,7 @@ if (online==true) {
 }
 
 // * city_9
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_9="Kaifaqu"
 var city_9_vis = "vis/index_city_8.html"
 var city_9_label_1 = "开发区 (Kaifaqu), China"
@@ -145,6 +153,7 @@ if (online==true) {
 }
 
 // * city_10
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_10="Beijing"
 var city_10_vis = "vis/index_city_10.html"
 var city_10_label_1 = "北京 (Beijing), China"
@@ -160,6 +169,7 @@ if (online==true) {
 }
 
 // * city_11
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_11="Dalian"
 var city_11_vis = "vis/index_city_11.html"
 var city_11_label_1 = "大连 (Dalian), China"
@@ -174,10 +184,11 @@ if (online==true) {
    var city_11_url = "image/image_11.png"
 }
 
-// * city_11
+// * city_12
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_12="Jiashan,Gansu"
 var city_12_vis = "vis/index_city_12.html"
-var city_12_label_1 = "架山 （Jiashan）, Germany"
+var city_12_label_1 = "架山 （Jiashan) China"
 var city_12_label_2 = "| 3 Months"
 var city_12_label_3 = "|| Working"
 var city_12_coordinate_1 = 33.7688
@@ -190,6 +201,7 @@ if (online==true) {
 }
 
 // * city_13
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_13="Beijing"
 var city_13_vis = "vis/index_city_13.html"
 var city_13_label_1 = "北京 (Beijing), China"
@@ -205,6 +217,7 @@ if (online==true) {
 }
 
 // * city_14
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_14="Cambridge"
 var city_14_vis = "vis/index_city_14.html"
 var city_14_label_1 = "Cambridge, UK"
@@ -220,6 +233,7 @@ if (online==true) {
 }
 
 // * city_15
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_15="London"
 var city_15_vis = "vis/index_city_15.html"
 var city_15_label_1 = "London, UK"
@@ -235,9 +249,10 @@ if (online==true) {
 }
 
 // * city_16
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_16="PhnomPenh"
 var city_16_vis = "vis/index_city_16.html"
-var city_16_label_1 = "Phnom Penh, Cambodia"
+var city_16_label_1 = "ភ្នំពេញ (Phnom Penh), Cambodia"
 var city_16_label_2 = "| 3 Months"
 var city_16_label_3 = "|| Working"
 var city_16_coordinate_1 = 1.5564
@@ -250,6 +265,7 @@ if (online==true) {
 }
 
 // * city_17
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_17="Cambridge,MA"
 var city_17_vis = "vis/index_city_17.html"
 var city_17_label_1 = "Cambridge, US"
@@ -265,6 +281,7 @@ if (online==true) {
 }
 
 // * city_18
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_18="SanFrancisco"
 var city_18_vis = "vis/index_city_18.html"
 var city_18_label_1 = "San Francisco, US"
@@ -280,6 +297,7 @@ if (online==true) {
 }
 
 // * city_19
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_19="Somerville"
 var city_19_vis = "vis/index_city_19.html"
 var city_19_label_1 = "Somerville, US"
@@ -295,6 +313,7 @@ if (online==true) {
 }
 
 // * city_20
+zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_20="Chicago"
 var city_20_vis = "vis/index_city_20.html"
 var city_20_label_1 = "Chicago, US"
