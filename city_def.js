@@ -236,7 +236,7 @@ zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 
 var city_15="PhnomPenh"
 var city_15_vis = "vis/index_city_15.html"
-var city_15_label_1 = "\u1797\u17D2\u1793\u17C6\u1796\u17C1\u1789 (Phnom Penh), Camb."
+var city_15_label_1 = "\u1797\u17D2\u1793\u17C6\u1796\u17C1\u1789 (Phnom Penh), Cambodia"
 var city_15_label_2 = "| 3 Months"
 var city_15_label_3 = "|| Working"
 var city_15_coordinate_1 = 11.556374
@@ -337,7 +337,7 @@ var height = 620;
 
 var projection = d3.geo.orthographic()
     .translate([(width / 2) -350, (height / 2)-250])
-    .scale(70)
+    .scale(60)
     .clipAngle(90)
     .precision(0.3);
 
@@ -415,7 +415,7 @@ var max_population = [];
             
             c.font = "9px Lucida Grande";
             c.save();
-            c.translate(85,200);
+            c.translate(85,170);
             c.rotate(-0.5*Math.PI);
             
             c.fillText(city_label_1,50,50);
@@ -423,7 +423,7 @@ var max_population = [];
             
             
             c.save();
-            c.translate(100,200);
+            c.translate(100,170);
             c.rotate(-0.5*Math.PI);
             
             c.fillText(city_label_2,50,50);
@@ -431,7 +431,7 @@ var max_population = [];
             
             
             c.save();
-            c.translate(115,200);
+            c.translate(115,170);
             c.rotate(-0.5*Math.PI);
             
             c.fillText(city_label_3,50,50);
