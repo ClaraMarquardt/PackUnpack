@@ -236,7 +236,7 @@ zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 
 var city_15="PhnomPenh"
 var city_15_vis = "vis/index_city_15.html"
-var city_15_label_1 = "\u1797\u17D2\u1793\u17C6\u1796\u17C1\u1789 (Phnom Penh), Cambodia"
+var city_15_label_1 = "\u1797\u17D2\u1793\u17C6\u1796\u17C1\u1789 (Phnom Penh), Camb."
 var city_15_label_2 = "| 3 Months"
 var city_15_label_3 = "|| Working"
 var city_15_coordinate_1 = 11.556374
