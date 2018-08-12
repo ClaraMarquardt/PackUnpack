@@ -51,7 +51,7 @@ html, body {overflow: hidden}
 .item_3 {
     position: absolute;
     bottom: 0px;
-    right: 423px;
+    right: 422px;
     height: 100%;
     z-index:-1;
     opacity:1;
@@ -61,7 +61,7 @@ html, body {overflow: hidden}
 .item_4 {
     position: absolute;
     bottom: 0px;
-    right: 230px;
+    right: 227px;
     height: 100%;
     z-index:-1;
     opacity:1;
@@ -71,7 +71,7 @@ html, body {overflow: hidden}
 .item_5 {
     position: absolute;
     bottom: 0px;
-    right: 36px;
+    right: 32px;
     height: 100%;
     z-index:-1;
     opacity:1;
