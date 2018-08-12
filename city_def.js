@@ -1,6 +1,6 @@
 // Parameter Def
-// online=false
-online=true
+online=false
+// online=true
 
 zoom_min=10
 zoom_max=19
@@ -61,7 +61,7 @@ var city_4="Karlsruhe,Waldstadt"
 var city_4_vis = "vis/index_city_4.html"
 var city_4_label_1 = "Karlsruhe, Germany"
 var city_4_label_2 = "| 1 Year 8 Months"
-var city_4_label_3 = "|| Attending Kindergarten"
+var city_4_label_3 = "|| Kindergarten"
 var city_4_coordinate_1 = 49.0424
 var city_4_coordinate_2 = 8.4268
 
@@ -77,7 +77,7 @@ var city_5="Karlsruhe"
 var city_5_vis = "vis/index_city_5.html"
 var city_5_label_1 = "Karlsruhe, Germany"
 var city_5_label_2 = "| 4 Years 1 Month"
-var city_5_label_3 = "|| Attending Primary School"
+var city_5_label_3 = "|| Primary School"
 var city_5_coordinate_1 = 49.0069
 var city_5_coordinate_2 = 8.4037
 
@@ -93,7 +93,7 @@ var city_6="Copenhagen"
 var city_6_vis = "vis/index_city_6.html"
 var city_6_label_1 = "K\u00F8benhavn, Denmark"
 var city_6_label_2 = "| 1 Year"
-var city_6_label_3 = "|| Attending Middle School"
+var city_6_label_3 = "|| Middle School"
 var city_6_coordinate_1 = 55.6761
 var city_6_coordinate_2 = 12.5683
 
@@ -109,7 +109,7 @@ var city_7="Karlsruhe"
 var city_7_vis = "vis/index_city_7.html"
 var city_7_label_1 = "Karlsruhe, Germany"
 var city_7_label_2 = "| 1 Year"
-var city_7_label_3 = "|| Attending Middle School"
+var city_7_label_3 = "|| Middle School"
 var city_7_coordinate_1 = 49.0069
 var city_7_coordinate_2 = 8.4037
 
@@ -125,7 +125,7 @@ var city_8="Frankfurt"
 var city_8_vis = "vis/index_city_8.html"
 var city_8_label_1 = "Frankfurt, Germany"
 var city_8_label_2 = "| 1 Year 9 Months"
-var city_8_label_3 = "|| Attending Middle School"
+var city_8_label_3 = "|| Middle School"
 var city_8_coordinate_1 = 50.1109
 var city_8_coordinate_2 = 8.6821
 
@@ -141,7 +141,7 @@ var city_9="Kaifaqu"
 var city_9_vis = "vis/index_city_9.html"
 var city_9_label_1 = "\u5F00\u53D1\u533A (Kaifaqu), China"
 var city_9_label_2 = "| 1 Year 3 Months"
-var city_9_label_3 = "|| Attending High School"
+var city_9_label_3 = "|| High School"
 var city_9_coordinate_1 = 39.0536
 var city_9_coordinate_2 = 121.7746
 
@@ -157,7 +157,7 @@ var city_10="Beijing"
 var city_10_vis = "vis/index_city_10.html"
 var city_10_label_1 = "\u5317\u4EAC (Beijing), China"
 var city_10_label_2 = "| 1 Year 9 Months"
-var city_10_label_3 = "|| Graduating From School"
+var city_10_label_3 = "|| School Graduation"
 var city_10_coordinate_1 = 39.9042
 var city_10_coordinate_2 = 116.4074
 
@@ -221,7 +221,7 @@ var city_14="Cambridge"
 var city_14_vis = "vis/index_city_14.html"
 var city_14_label_1 = "Cambridge, UK"
 var city_14_label_2 = "| 2 Years 5 Months"
-var city_14_label_3 = "|| Attending University (BA)"
+var city_14_label_3 = "|| University (BA)"
 var city_14_coordinate_1 = 52.2053
 var city_14_coordinate_2 = 0.1218
 
@@ -236,7 +236,7 @@ zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 
 var city_15="PhnomPenh"
 var city_15_vis = "vis/index_city_15.html"
-var city_15_label_1 = "\u1797\u17D2\u1793\u17C6\u1796\u17C1\u1789 (Phnom Penh), Camb."
+var city_15_label_1 = "\u1797\u17D2\u1793\u17C6\u1796\u17C1\u1789 (Phnom Penh), CM"
 var city_15_label_2 = "| 3 Months"
 var city_15_label_3 = "|| Working"
 var city_15_coordinate_1 = 11.556374
@@ -271,7 +271,7 @@ var city_17="Cambridge,MA"
 var city_17_vis = "vis/index_city_17.html"
 var city_17_label_1 = "Cambridge, US"
 var city_17_label_2 = "| 8 Months"
-var city_17_label_3 = "|| Attending University (MA)"
+var city_17_label_3 = "|| University (MA)"
 var city_17_coordinate_1 = 42.3736
 var city_17_coordinate_2 = -71.1097
 
@@ -415,7 +415,7 @@ var max_population = [];
             
             c.font = "9px Lucida Grande";
             c.save();
-            c.translate(85,170);
+            c.translate(85,160);
             c.rotate(-0.5*Math.PI);
             
             c.fillText(city_label_1,50,50);
@@ -423,7 +423,7 @@ var max_population = [];
             
             
             c.save();
-            c.translate(100,170);
+            c.translate(100,160);
             c.rotate(-0.5*Math.PI);
             
             c.fillText(city_label_2,50,50);
@@ -431,7 +431,7 @@ var max_population = [];
             
             
             c.save();
-            c.translate(115,170);
+            c.translate(115,160);
             c.rotate(-0.5*Math.PI);
             
             c.fillText(city_label_3,50,50);
