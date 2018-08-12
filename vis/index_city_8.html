@@ -5,14 +5,15 @@
 <link rel="stylesheet" type="text/css" href="../style/style_vis.css" media="screen" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<script src="//d3js.org/topojson.v1.min.js"></script>
+<script src="//d3js.org/queue.v1.min.js"></script>
 
 </head>
 
 <body>
-<svg width="820" height="620"></svg>
 
 <script>
-
+console.log("8")
 // Definition
 var city="../city_def.js"
 
@@ -36,7 +37,7 @@ function loadScript(url, callback)
 }
 
 var myPrettyCode = function() {
-   draw_globe("../data/city_8.geojson", city_8_label_1,city_8_label_2,city_8_label_3, city_8_coordinate_1,city_8_coordinate_2)
+   draw_globe("../data/city_personal.geojson", city_8_label_1,city_8_label_2,city_8_label_3, city_8_coordinate_1,city_8_coordinate_2,7)
 };
 
 loadScript(city, myPrettyCode);

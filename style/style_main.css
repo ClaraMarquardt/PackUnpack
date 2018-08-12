@@ -77,10 +77,16 @@ html, body {overflow: hidden}
     opacity:1;
 }
 
+
+.intro {
+    font-size: 10px;
+
+}
+
 .desc {
-font-size: 8px;
-font-color: "#444242";
-opacity:0.5;
+    font-size: 8px;
+    font-color: "#444242";
+    opacity:0.5;
 
 }
 

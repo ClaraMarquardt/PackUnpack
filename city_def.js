@@ -1,12 +1,11 @@
 // Parameter Def
-// online=false
-online=true
+online=false
+// online=true
 
 zoom_min=10
 zoom_max=19
 
 // Variable Def
-
 
 // * city_1
 zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
@@ -92,7 +91,7 @@ if (online==true) {
 zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_6="Copenhagen"
 var city_6_vis = "vis/index_city_6.html"
-var city_6_label_1 = "København, Denmark"
+var city_6_label_1 = "K\u00F8benhavn, Denmark"
 var city_6_label_2 = "| 1 Year"
 var city_6_label_3 = "|| Attending Middle School"
 var city_6_coordinate_1 = 55.6761
@@ -139,8 +138,8 @@ if (online==true) {
 // * city_9
 zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_9="Kaifaqu"
-var city_9_vis = "vis/index_city_8.html"
-var city_9_label_1 = "开发区 (Kaifaqu), China"
+var city_9_vis = "vis/index_city_9.html"
+var city_9_label_1 = "\u5F00\u53D1\u533A (Kaifaqu), China"
 var city_9_label_2 = "| 1 Year 3 Months"
 var city_9_label_3 = "|| Attending High School"
 var city_9_coordinate_1 = 39.0536
@@ -156,7 +155,7 @@ if (online==true) {
 zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_10="Beijing"
 var city_10_vis = "vis/index_city_10.html"
-var city_10_label_1 = "北京 (Beijing), China"
+var city_10_label_1 = "\u5317\u4EAC (Beijing), China"
 var city_10_label_2 = "| 1 Year 9 Months"
 var city_10_label_3 = "|| Graduating From School"
 var city_10_coordinate_1 = 39.9042
@@ -172,7 +171,7 @@ if (online==true) {
 zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_11="Dalian"
 var city_11_vis = "vis/index_city_11.html"
-var city_11_label_1 = "大连 (Dalian), China"
+var city_11_label_1 = "\u5927\u8FDE (Dalian), China"
 var city_11_label_2 = "| 7 Months"
 var city_11_label_3 = "|| Working"
 var city_11_coordinate_1 = 38.914
@@ -188,7 +187,7 @@ if (online==true) {
 zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_12="Jiashan,Gansu"
 var city_12_vis = "vis/index_city_12.html"
-var city_12_label_1 = "架山 (Jiashan) China"
+var city_12_label_1 = "\u67B6\u5C71 (Jiashan) China"
 var city_12_label_2 = "| 3 Months"
 var city_12_label_3 = "|| Working"
 var city_12_coordinate_1 = 33.7688
@@ -204,7 +203,7 @@ if (online==true) {
 zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 var city_13="Beijing"
 var city_13_vis = "vis/index_city_13.html"
-var city_13_label_1 = "北京 (Beijing), China"
+var city_13_label_1 = "\u5317\u4EAC (Beijing), China"
 var city_13_label_2 = "| 5 Months"
 var city_13_label_3 = "|| Working"
 var city_13_coordinate_1 = 39.9042
@@ -237,10 +236,10 @@ zoom = Math.floor(Math.random() * (zoom_max - zoom_min + 1)) + zoom_min;
 
 var city_15="PhnomPenh"
 var city_15_vis = "vis/index_city_15.html"
-var city_15_label_1 = "ភ្នំពេញ (Phnom Penh), Camb."
+var city_15_label_1 = "\u1797\u17D2\u1793\u17C6\u1796\u17C1\u1789 (Phnom Penh), Camb."
 var city_15_label_2 = "| 3 Months"
 var city_15_label_3 = "|| Working"
-var city_15_coordinate_1 = 1.5564
+var city_15_coordinate_1 = 11.556374
 var city_15_coordinate_2 = 104.9282
 
 if (online==true) {
@@ -257,7 +256,7 @@ var city_16_label_1 = "London, UK"
 var city_16_label_2 = "| 3 Months"
 var city_16_label_3 = "|| Working"
 var city_16_coordinate_1 = 51.5074
-var city_16_coordinate_2 = 0.1278
+var city_16_coordinate_2 = -0.1278
 
 if (online==true) {
    var city_16_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_16+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
@@ -274,7 +273,7 @@ var city_17_label_1 = "Cambridge, US"
 var city_17_label_2 = "| 8 Months"
 var city_17_label_3 = "|| Attending University (MA)"
 var city_17_coordinate_1 = 42.3736
-var city_17_coordinate_2 = 71.1097
+var city_17_coordinate_2 = -71.1097
 
 if (online==true) {
    var city_17_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_17+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
@@ -290,7 +289,7 @@ var city_18_label_1 = "San Francisco, US"
 var city_18_label_2 = "| 6 Months"
 var city_18_label_3 = "|| Founding A Company"
 var city_18_coordinate_1 = 37.7749
-var city_18_coordinate_2 = 122.4194
+var city_18_coordinate_2 = -122.4194
 
 if (online==true) {
    var city_18_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_18+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
@@ -306,7 +305,7 @@ var city_19_label_1 = "Somerville, US"
 var city_19_label_2 = "| 1 Year 5 Months"
 var city_19_label_3 = "|| Working"
 var city_19_coordinate_1 = 42.3876
-var city_19_coordinate_2 = 71.0995
+var city_19_coordinate_2 = -71.0995
 
 if (online==true) {
    var city_19_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_19+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
@@ -322,7 +321,7 @@ var city_20_label_1 = "Chicago, US"
 var city_20_label_2 = "| 1 Year 5 Months"
 var city_20_label_3 = "|| Working"
 var city_20_coordinate_1 = 41.8781
-var city_20_coordinate_2 = 87.6298
+var city_20_coordinate_2 = -87.6298
 
 if (online==true) {
    var city_20_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_20+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
@@ -331,85 +330,50 @@ if (online==true) {
 }
 
 // Function Def
-function draw_globe(globe_data, city_label_1,city_label_2,city_label_3, city_coordinate_1, city_coordinate_2) {
-
-// Map configuration
+function draw_globe(globe_data, city_label_1,city_label_2,city_label_3, city_coordinate_1, city_coordinate_2, city_index) {
 var width  = 820;
 var height = 620;
+
+
+var projection = d3.geo.orthographic()
+    .translate([(width / 2) -350, (height / 2)-250])
+    .scale(70)
+    .clipAngle(90)
+    .precision(0.3);
+
+var canvas = d3.select("body").append("canvas")
+    .attr("width", width)
+    .attr("height", height);
+
+var c = canvas.node().getContext("2d");
+c.textAlign = "start"
+c.textBaseline = "hanging"
+
+
+var path = d3.geo.path()
+    .projection(projection)
+    .context(c);
+
+var title = d3.select("h1");
+
+queue()
+    .defer(d3.json, "../data/world-110m.json")
+    .defer(d3.json, "../data/cities.geojson")
+   .defer(d3.json, "../data/cities_all.geojson")
+    .defer(d3.json, globe_data)
+    .await(ready);
+
+function ready(error, world, cities_all_pop, cities_all, cities) {
+  if (error) throw error;
+
 var rScale = d3.scale.sqrt();
 var peoplePerPixel = 1000000;
 var max_population = [];
 
-// Configuration for the spinning effect
-var time = Date.now();
-var rotate = [0, 0];
-var velocity = [.015, -0];
 
-// set projection type and paremetes
-var projection = d3.geo.orthographic()
-   .scale(50)
-   .translate([(width / 2) -350, (height / 2)-250])
-   .clipAngle(90)
-   .precision(0.3);
-
-// markers
-var city_color="#ffba00"
-var city_opacity=1
-var sphere_color="#0D0D0D"
-
-// create path variable, empty svg element and group container
-var path = d3.geo.path()
-   .projection(projection);
-var svg = d3.select("svg");
-var g = svg.append("g");
-
-// drawing dark grey spehere as landmass
-g.append("path")
-   .datum({type: "Sphere"})
-   .attr("class", "sphere")
-   .attr("d", path)
-   .attr("fill", sphere_color);
-
-g.append("text")
-   .html(city_label_1)
-   .attr('x', -120)
-   .attr('y', 145)
-   .style('fill', 'white')
-   .style("text-anchor", "beginning")
-   .style('font-family', '"Lucida Grande", sans-serif')
-   .style('font-size', '9px')
-   .attr("transform", "rotate(-90)" );
-
-g.append("text")
-   .html(city_label_2)
-   .attr('x', -120)
-   .attr('y', 160)
-   .style('fill', 'white')
-   .style("text-anchor", "beginning")
-   .style('font-family', '"Lucida Grande", sans-serif')
-   .style('font-size', '9px')
-   .attr("transform", "rotate(-90)" );
-
-g.append("text")
-   .html(city_label_3)
-   .attr('x', -120)
-   .attr('y', 175)
-   .style('fill', 'white')
-   .style("text-anchor", "beginning")
-   .style('font-family', '"Lucida Grande", sans-serif')
-   .style('font-size', '9px')
-   .attr("transform", "rotate(-90)" );
-
-// loading city locations from geoJSON
-d3.json(globe_data, function(error, data) {
-
-         // Handle errors getting and parsing the data
-         if (error) { return error; }
-
-         // setting the circle size (not radius!) according to the number of inhabitants per city
          population_array = [];
-         for (i = 0; i < data.features.length; i++) {
-            population_array.push(data.features[i].properties.population);
+         for (i = 0; i < cities_all_pop.features.length; i++) {
+            population_array.push(cities_all_pop.features[i].properties.population);
          }
          max_population = population_array.sort(d3.descending)[0]
          var rMin = 0;
@@ -422,35 +386,65 @@ d3.json(globe_data, function(error, data) {
 
          });
 
-         // Drawing transparent circle markers for cities
-         g.selectAll("path.cities").data(data.features)
-            .enter().append("path")
-            .attr("class", "cities")
-            .attr("d", path)
-            .attr("fill", city_color)
-            .attr("fill-opacity", city_opacity);
+  var globe = {type: "Sphere"},
+      land = topojson.feature(world, world.objects.land),
+      cities = topojson.feature(cities, cities.objects.globe),
+      cities_all = topojson.feature(cities_all, cities_all.objects.globe),
+      borders = topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }),
+      i = -1,
+      n = 100;
 
-         // start spinning!
-         spinning_globe();
-});
+  (function transition() {
+    d3.transition()
+        .duration(3250)
+        .each("start", function() {
+        })
+        .tween("rotate", function() {
+          var p = [city_coordinate_2,city_coordinate_1],
+              r = d3.interpolate(projection.rotate(), [-p[0], -p[1]]);
+          return function(t) {
+            projection.rotate(r(t));
+            c.clearRect(0, 0, width, height);
+                        c.fillStyle = "#1a4400", c.beginPath(), path(cities_all), c.fill();
 
-function spinning_globe(){
-   d3.timer(function() {
+            c.fillStyle = "#1c33ff", c.beginPath(), path(cities.features[city_index]), c.fill();
 
-      // get current time
-      var dt = Date.now() - time;
+            c.strokeStyle = "#fff", c.lineWidth = .5, c.beginPath(), path(borders), c.stroke();
+            c.strokeStyle = "white", c.lineWidth = 2, c.beginPath(), path(globe), c.stroke();
+            c.fillStyle = "white";
+            
+            c.font = "9px Lucida Grande";
+            c.save();
+            c.translate(85,200);
+            c.rotate(-0.5*Math.PI);
+            
+            c.fillText(city_label_1,50,50);
+            c.restore();
+            
+            
+            c.save();
+            c.translate(100,200);
+            c.rotate(-0.5*Math.PI);
+            
+            c.fillText(city_label_2,50,50);
+            c.restore();
+            
+            
+            c.save();
+            c.translate(115,200);
+            c.rotate(-0.5*Math.PI);
+            
+            c.fillText(city_label_3,50,50);
+            c.restore();
+            
 
-      // get the new position from modified projection function
-      projection.rotate([rotate[0] + velocity[0] * dt, rotate[1] + velocity[1] * dt]);
-
-      // update cities position = redraw
-      svg.selectAll("path.cities").attr("d", path);
-   });
-
+          };
+        })
+      .transition()
+        .each("end", transition);
+  })();
 }
 
-
-// hackish approach to get bl.ocks.org to display individual height
 d3.select(self.frameElement).style("height", height + "px");
 
 }
