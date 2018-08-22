@@ -34,7 +34,7 @@ html, body {overflow: hidden}
 .item_1 {
     position: absolute;
     bottom: 0px;
-    right: 793px;
+    right: 792px;
     height: 100%;
     z-index:-1;
     opacity:1;
@@ -72,7 +72,7 @@ html, body {overflow: hidden}
 .item_5 {
     position: absolute;
     bottom: 0px;
-    right: 17px;
+    right: 18px;
     height: 100%;
     z-index:-1;
     opacity:1;
