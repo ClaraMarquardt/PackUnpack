@@ -5,7 +5,7 @@
 <link rel="icon" href="favicon.ico" type="image/load_img/x-icon">
 
 </head>
-<body style="margin-top:-80px;margin-bottom:-100px;margin-left:auto; margin-right:auto;padding:100;width:1000">
+<body style="margin-top:-87px;margin-bottom:-100px;margin-left:auto; margin-right:auto;padding:100;width:1000">
 
 
 <div class="text" style="margin-left:100; margin-right:100">
@@ -23,7 +23,6 @@
     <p class="intro" style="text-align:center;"><span class="intro box" style="text-align:center;"><font color="#464241"><font class="desc">&#x2798;</font><sub><a id="hover"> <font class="desc_small">hover</font></sub></a><font class="desc"> over the maps below and &#x21bb </font><sub><a id="refresh"> <font class="desc_small">refresh</font></a></sub> <font class="desc">the page</font></span></p>
 
 </div>
-
 
 
 <script type="text/javascript" src="city_def.js"></script>
@@ -220,13 +219,13 @@ function loadImage(counter) {
   if (I!=null)  {
 
     // Monitor load or error events, moving on to next image in either case
-    I.onload = I.onerror = function() {setTimeout(function() {loadImage(counter+1)},50) }
+    I.onload = I.onerror = function() {setTimeout(function() {loadImage(counter+1)},25) }
 
     //Change source (then wait for event)
     I.src = url_temp;
 
   } else {
-    setTimeout(function() {loadImage(counter+1)},50)
+    setTimeout(function() {loadImage(counter+1)},25)
   }
 }
 
