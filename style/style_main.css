@@ -78,6 +78,15 @@ html, body {overflow: hidden}
 }
 
 
+.box {
+    padding: 5px;
+    border-radius: 3px 3px 3px;
+    border: 1px solid #efefef;
+    padding-left: 20px;
+}
+
+
+
 .intro {
     font-size: 10px;
 
@@ -96,6 +105,7 @@ html, body {overflow: hidden}
     opacity:1;
 
 }
+
 
 iframe {
     height: 20% !important;
