@@ -11,8 +11,7 @@
 <div class="text" style="margin-left:100; margin-right:100">
 
       <p class="intro" style="text-align:center;"><font color="#464241">
-
-      By the time I turned 20 I had lived in 16 cities and 5 countries. <br>A year later I would yet again pack my bags to move to a new continent. <br>This visualization  is intended as a long and ever variable answer to a short question - <i>Where Are You From?</i><br></font><font class="desc">(Hover below and refresh away)</font></p>
+      By the time I turned 20 I had lived in 16 cities and 5 countries. <br>A year later I would yet again pack my bags to move to a new continent. <br>This visualization  is intended as a long and ever variable answer to a short question - <i>Where Are You From?</i><br></font><font class="desc">&#x2798;<sub><span onmouseenter="onHover('city_1_img');" onmouseleave="offHover('city_1_img');"> <font class="desc_small">hover</font></sub></span> over the maps below and &#x21bb <sub><span onmouseenter="location.reload()"> <font class="desc_small">refresh</font></span></sub> the page</font></p>
 
 </div>
 
@@ -211,13 +210,13 @@ function loadImage(counter) {
   if (I!=null)  {
 
     // Monitor load or error events, moving on to next image in either case
-    I.onload = I.onerror = function() {setTimeout(function() {loadImage(counter+1)},150) }
+    I.onload = I.onerror = function() {setTimeout(function() {loadImage(counter+1)},50) }
 
     //Change source (then wait for event)
     I.src = url_temp;
 
   } else {
-    setTimeout(function() {loadImage(counter+1)},150)
+    setTimeout(function() {loadImage(counter+1)},50)
   }
 }
 
