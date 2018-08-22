@@ -1,28 +1,8 @@
 <html>
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 <link rel="stylesheet" type="text/css" href="style/style_main.css" media="screen" />
-<link rel="preload" as="document" href="vis/index_city_1.html"/>
-<link rel="preload" as="document" href="vis/index_city_2.html"/>
-<link rel="preload" as="document" href="vis/index_city_3.html"/>
-<link rel="preload" as="document" href="vis/index_city_4.html"/>
-<link rel="preload" as="document" href="vis/index_city_5.html"/>
-<link rel="preload" as="document" href="vis/index_city_6.html"/>
-<link rel="preload" as="document" href="vis/index_city_7.html"/>
-<link rel="preload" as="document" href="vis/index_city_8.html"/>
-<link rel="preload" as="document" href="vis/index_city_9.html"/>
-<link rel="preload" as="document" href="vis/index_city_10.html"/>
-<link rel="preload" as="document" href="vis/index_city_11.html"/>
-<link rel="preload" as="document" href="vis/index_city_12.html"/>
-<link rel="preload" as="document" href="vis/index_city_13.html"/>
-<link rel="preload" as="document" href="vis/index_city_14.html"/>
-<link rel="preload" as="document" href="vis/index_city_15.html"/>
-<link rel="preload" as="document" href="vis/index_city_16.html"/>
-<link rel="preload" as="document" href="vis/index_city_17.html"/>
-<link rel="preload" as="document" href="vis/index_city_18.html"/>
-<link rel="preload" as="document" href="vis/index_city_19.html"/>
-<link rel="preload" as="document" href="vis/index_city_20.html"/>
+<link rel="icon" href="favicon.ico" type="image/load_img/x-icon">
 
 </head>
 <body style="margin-top:-70px;margin-bottom:-100px;margin-left:auto; margin-right:auto;padding:100;width:1000">
@@ -46,9 +26,7 @@
 
 
 function onHover(city_tag)
-{
-
-
+{d = new Date();
 
     var city_tag_constant_raw = city_tag
     var city_tag_constant = city_tag_constant_raw.replace("_img", "");
@@ -63,7 +41,7 @@ function onHover(city_tag)
     }
 
     // change to image tag
-     $('#'+city_tag_constant+'_img').replaceWith( '<iframe id="iframe_temp" class="main_frame" frameborder="0" width="190" height="20%" scrolling="no">');
+     $('#'+city_tag_constant+'_img').replaceWith( '<iframe id="iframe_temp" class="main_frame" frameborder="0" width="190" height="20%" scrolling="no" allowtransparency="true" style="background-color: Black;">');
 
      $('#iframe_temp').attr("src",eval(city_tag_constant+'_vis'));
 
@@ -100,66 +78,69 @@ function offHover(city_tag)
 
 <div class="row">
 
-<!--     <div class="main_line" style="width:1000px; height:4px; position:absolute; margin-left:0px; margin-top:-8px; background-color:white;"></div>
- -->    
+    <div class="main_line" style="width:10px; height:400%; position:absolute; margin-left:185px; margin-top:-8px; background-color:white;"></div>
+    <div class="main_line" style="width:10px; height:400%; position:absolute; margin-left:378px; margin-top:-8px; background-color:white;"></div>
+    <div class="main_line" style="width:10px; height:400%; position:absolute; margin-left:571px; margin-top:-8px; background-color:white;"></div>
+    <div class="main_line" style="width:10px; height:400%; position:absolute; margin-left:764px; margin-top:-8px; background-color:white;"></div>
+
     <img id="city_1_img"   class="main" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_1" class="item_1" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">
+    <img id="temp_1" class="item_1 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">
 
     <img id="city_2_img" class="main" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_2" class="item_2" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">
+    <img id="temp_2" class="item_2 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">
 
     <img id="city_3_img" class="main" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_3" class="item_3" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">
+    <img id="temp_3" class="item_3 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">
 
     <img id="city_4_img" class="main" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_4" class="item_4" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">
+    <img id="temp_4" class="item_4 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">
 
     <img id="city_5_img" class="main" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_5" class="item_5" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">
+    <img id="temp_5" class="item_5 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">
 
 </div>
 
 
 <div class="row">
     
-    <div class="main_line" style="width:1000px; height:4px; position:absolute; margin-left:0px; margin-top:-8px; background-color:white;"></div>
+    <div class="main_line" style="width:1000px; height:10px; position:absolute; margin-left:0px; margin-top:-8px; background-color:white;"></div>
 
     <img id="city_6_img" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_6" class="item_1" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">
+    <img id="temp_6" class="item_1 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">
 
     <img id="city_7_img" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_7" class="item_2" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">    
+    <img id="temp_7" class="item_2 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">    
 
     <img id="city_8_img" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_8" class="item_3" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">    
+    <img id="temp_8" class="item_3 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">    
 
     <img id="city_9_img" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_9" class="item_4" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">    
+    <img id="temp_9" class="item_4 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">    
 
     <img id="city_10_img" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_10" class="item_5" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">    
+    <img id="temp_10" class="item_5 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">    
 
 </div>
 
 
 <div class="row">
 
-    <div class="main_line" style="width:1000px; height:4px; position:absolute; margin-left:0px; margin-top:-8px; background-color:white;"></div>
+    <div class="main_line" style="width:1000px; height:10px; position:absolute; margin-left:0px; margin-top:-8px; background-color:white;"></div>
  
     <img id="city_11_img" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_11" class="item_1" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">       
+    <img id="temp_11" class="item_1 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">       
 
     <img id="city_12_img" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_12" class="item_2" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">    
+    <img id="temp_12" class="item_2 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">    
 
     <img id="city_13_img" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_13" class="item_3" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">    
+    <img id="temp_13" class="item_3 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">    
 
     <img id="city_14_img" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_14" class="item_4" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">    
+    <img id="temp_14" class="item_4 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">    
 
     <img id="city_15_img" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_15" class="item_5" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">    
+    <img id="temp_15" class="item_5 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">    
 
 
 </div>
@@ -167,22 +148,22 @@ function offHover(city_tag)
 
 <div class="row">
       
-    <div class="main_line" style="width:1000px; height:4px; position:absolute; margin-left:0px; margin-top:-8px; background-color:white;"></div>
+    <div class="main_line" style="width:1000px; height:10px; position:absolute; margin-left:0px; margin-top:-8px; background-color:white;"></div>
 
    <img id="city_16_img" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_16" class="item_1" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">    
+    <img id="temp_16" class="item_1 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">    
 
     <img id="city_17_img" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_17" class="item_2" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">    
+    <img id="temp_17" class="item_2 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">    
 
     <img id="city_18_img" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_18" class="item_3" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">    
+    <img id="temp_18" class="item_3 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">    
 
     <img id="city_19_img" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_19" class="item_4" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">    
+    <img id="temp_19" class="item_4 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">    
 
     <img id="city_20_img" width="190" height="20%" onmouseenter="onHover(this.id);" onmouseleave="offHover(this.id);">
-    <img id="temp_20" class="item_5" width="190" height="20%" bottom="10px" right="10px" onError="this.onerror=null;this.src='image/placeholder.jpg';" src="https://www.drodd.com/images16/dark-blue1.jpg" position="absolute">    
+    <img id="temp_20" class="item_5 item" width="190" height="20%" bottom="10px" right="10px" style= 'background-color: white' position="absolute">    
 
     <div class="main_line" style="width:1000px; height:10px; position:absolute; margin-left:0px; margin-top:-8px; background-color:white;"></div>
 
@@ -198,11 +179,23 @@ if(!is_chrome){
 }
 
 
+// update load img
+var load_img       = $('.item');
+var load_img_url = ["1",'2',"3","4","5", "6", "7", "8", "9","10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"]
+
+$.each( load_img, function(index) {
+    load_img_url_temp = load_img_url[index]
+    load_img_url_temp = "image/load_img/placeholder_img_" + load_img_url_temp + ".png"
+    $(this).attr("src",load_img_url_temp)
+});
+
+
 // change to image tag
 var imgAddresses = [city_1_url,city_2_url,city_3_url,city_4_url,city_5_url, city_6_url, city_7_url, city_8_url, city_9_url,city_10_url, city_11_url, city_12_url, city_13_url, city_14_url, city_15_url, city_16_url, city_17_url, city_18_url, city_19_url, city_20_url]
-var imgID = ["city_1_img",'city_2_img',"city_3_img","city_4_img","city_5_img", "city_6_img", "city_7_img", "city_8_img", "city_9_img","city_10_img", "city_11_img", "city_12_img", "city_13_img", "city_14_img", "city_15_img", "city_16_img", "city_17_img", "city_18_img", "city_19_img", "city_20_img"]
+var imgID = ["1",'2',"3","4","5", "6", "7", "8", "9","10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"]
 var imgOrder = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
 var imgOrder_shuffle = imgOrder.sort(function() { return 0.5 - Math.random() });
+
 
 function loadImage(counter) {
 
@@ -213,7 +206,7 @@ function loadImage(counter) {
   if (counter==imgOrder.length) { return; }
 
   // Grab an image obj
-  var I = document.getElementById(img_temp);
+  var I = document.getElementById("city_"+ img_temp + "_img");
 
   if (I!=null)  {
 

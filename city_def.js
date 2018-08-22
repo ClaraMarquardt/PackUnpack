@@ -20,7 +20,7 @@ var city_1_coordinate_2 = 8.0472
 if (online==true) {
    var city_1_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_1+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_1_url = "image/image_1.png"
+   var city_1_url = "image/map_img/image_1.png"
 }
 
 // * city_2
@@ -36,7 +36,7 @@ var city_2_coordinate_2 = 8.2398
 if (online==true) {
    var city_2_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_2+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_2_url = "image/image_2.png"
+   var city_2_url = "image/map_img/image_2.png"
 }
 
 // * city_3
@@ -52,7 +52,7 @@ var city_3_coordinate_2 = 9.6203
 if (online==true) {
    var city_3_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_3+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_3_url = "image/image_3.png"
+   var city_3_url = "image/map_img/image_3.png"
 }
 
 // * city_4
@@ -68,7 +68,7 @@ var city_4_coordinate_2 = 8.4268
 if (online==true) {
    var city_4_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_4+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_4_url = "image/image_4.png"
+   var city_4_url = "image/map_img/image_4.png"
 }
 
 // * city_5
@@ -84,7 +84,7 @@ var city_5_coordinate_2 = 8.4037
 if (online==true) {
    var city_5_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_5+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_5_url = "image/image_5.png"
+   var city_5_url = "image/map_img/image_5.png"
 }
 
 // * city_6
@@ -100,7 +100,7 @@ var city_6_coordinate_2 = 12.5683
 if (online==true) {
    var city_6_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_6+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_6_url = "image/image_6.png"
+   var city_6_url = "image/map_img/image_6.png"
 }
 
 // * city_7
@@ -116,7 +116,7 @@ var city_7_coordinate_2 = 8.4037
 if (online==true) {
    var city_7_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_7+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_7_url = "image/image_7.png"
+   var city_7_url = "image/map_img/image_7.png"
 }
 
 // * city_8
@@ -132,7 +132,7 @@ var city_8_coordinate_2 = 8.6821
 if (online==true) {
    var city_8_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_8+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_8_url = "image/image_8.png"
+   var city_8_url = "image/map_img/image_8.png"
 }
 
 // * city_9
@@ -148,7 +148,7 @@ var city_9_coordinate_2 = 121.7746
 if (online==true) {
    var city_9_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_9+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_9_url = "image/image_9.png"
+   var city_9_url = "image/map_img/image_9.png"
 }
 
 // * city_10
@@ -164,7 +164,7 @@ var city_10_coordinate_2 = 116.4074
 if (online==true) {
    var city_10_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_10+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_10_url = "image/image_10.png"
+   var city_10_url = "image/map_img/image_10.png"
 }
 
 // * city_11
@@ -180,7 +180,7 @@ var city_11_coordinate_2 = 121.6147
 if (online==true) {
    var city_11_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_11+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_11_url = "image/image_11.png"
+   var city_11_url = "image/map_img/image_11.png"
 }
 
 // * city_12
@@ -196,7 +196,7 @@ var city_12_coordinate_2 = 106.0878
 if (online==true) {
    var city_12_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_12+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_12_url = "image/image_12.png"
+   var city_12_url = "image/map_img/image_12.png"
 }
 
 // * city_13
@@ -212,7 +212,7 @@ var city_13_coordinate_2 = 116.4074
 if (online==true) {
    var city_13_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_13+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_13_url = "image/image_13.png"
+   var city_13_url = "image/map_img/image_13.png"
 }
 
 // * city_14
@@ -228,7 +228,7 @@ var city_14_coordinate_2 = 0.1218
 if (online==true) {
    var city_14_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_14+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_14_url = "image/image_14.png"
+   var city_14_url = "image/map_img/image_14.png"
 }
 
 // * city_15
@@ -245,7 +245,7 @@ var city_15_coordinate_2 = 104.9282
 if (online==true) {
    var city_15_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_15+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_15_url = "image/image_16.png"
+   var city_15_url = "image/map_img/image_16.png"
 }
 
 // * city_16
@@ -261,7 +261,7 @@ var city_16_coordinate_2 = -0.1278
 if (online==true) {
    var city_16_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_16+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_16_url = "image/image_15.png"
+   var city_16_url = "image/map_img/image_15.png"
 }
 
 
@@ -278,7 +278,7 @@ var city_17_coordinate_2 = -71.1097
 if (online==true) {
    var city_17_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_17+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_17_url = "image/image_17.png"
+   var city_17_url = "image/map_img/image_17.png"
 }
 
 // * city_18
@@ -294,7 +294,7 @@ var city_18_coordinate_2 = -122.4194
 if (online==true) {
    var city_18_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_18+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_18_url = "image/image_18.png"
+   var city_18_url = "image/map_img/image_18.png"
 }
 
 // * city_19
@@ -310,7 +310,7 @@ var city_19_coordinate_2 = -71.0995
 if (online==true) {
    var city_19_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_19+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_19_url = "image/image_19.png"
+   var city_19_url = "image/map_img/image_19.png"
 }
 
 // * city_20
@@ -326,10 +326,10 @@ var city_20_coordinate_2 = -87.6298
 if (online==true) {
    var city_20_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_20+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
 } else {
-   var city_20_url = "image/image_20.png"
+   var city_20_url = "image/map_img/image_20.png"
 }
 
-// Function Def
+// Function Def #1
 function draw_globe(globe_data, city_label_1,city_label_2,city_label_3, city_coordinate_1, city_coordinate_2, city_index) {
 var width  = 820;
 var height = 620;
