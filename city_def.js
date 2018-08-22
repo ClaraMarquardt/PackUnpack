@@ -370,7 +370,6 @@ queue()
 
 function ready(error, world, cities_all_pop, cities_all, cities) {
   if (error) throw error;
-console.log("ready")
 var rScale = d3.scale.sqrt();
 var peoplePerPixel = 1000000;
 var max_population = [];

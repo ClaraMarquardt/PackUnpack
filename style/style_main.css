@@ -11,6 +11,7 @@ html, body {overflow: hidden}
 .row {
     line-height:0.1;
     position: relative;
+    text-align:center
 
   }
 
@@ -33,7 +34,7 @@ html, body {overflow: hidden}
 .item_1 {
     position: absolute;
     bottom: 0px;
-    right: 810px;
+    right: 793px;
     height: 100%;
     z-index:-1;
     opacity:1;
@@ -42,7 +43,7 @@ html, body {overflow: hidden}
 .item_2 {
     position: absolute;
     bottom: 0px;
-    right: 617px;
+    right: 600px;
     height: 100%;
     z-index:-1;
     opacity:1;
@@ -51,7 +52,7 @@ html, body {overflow: hidden}
 .item_3 {
     position: absolute;
     bottom: 0px;
-    right: 422px;
+    right: 405px;
     height: 100%;
     z-index:-1;
     opacity:1;
@@ -61,7 +62,7 @@ html, body {overflow: hidden}
 .item_4 {
     position: absolute;
     bottom: 0px;
-    right: 228.5px;
+    right: 210.5px;
     height: 100%;
     z-index:-1;
     opacity:1;
@@ -71,7 +72,7 @@ html, body {overflow: hidden}
 .item_5 {
     position: absolute;
     bottom: 0px;
-    right: 36px;
+    right: 17px;
     height: 100%;
     z-index:-1;
     opacity:1;
