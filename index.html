@@ -5,13 +5,13 @@
 <link rel="icon" href="favicon.ico" type="image/load_img/x-icon">
 
 </head>
-<body style="margin-top:-70px;margin-bottom:-100px;margin-left:auto; margin-right:auto;padding:100;width:1000">
+<body style="margin-top:-78px;margin-bottom:-100px;margin-left:auto; margin-right:auto;padding:100;width:1000">
 
 
 <div class="text" style="margin-left:100; margin-right:100">
 
       <p class="intro" style="text-align:center;"><font color="#464241">
-      By the time I turned 20 I had lived in 16 cities and 5 countries. <br>A year later I would yet again pack my bags to move to a new continent. <br>This visualization  is intended as a long and ever variable answer to a short question - <i>Where Are You From?</i><br></font><font class="desc">&#x2798;<sub><span onmouseenter="onHover('city_1_img');" onmouseleave="offHover('city_1_img');"> <font class="desc_small">hover</font></sub></span> over the maps below and &#x21bb <sub><span onmouseenter="location.reload()"> <font class="desc_small">refresh</font></span></sub> the page</font></p>
+      By the time I turned 20 I had lived in 16 cities and 5 countries. <br>A year later I would yet again pack my bags to move to a new continent. <br>This visualization  is intended as a long and ever variable answer to a short question - <i>Where Are You From?</i><br></font><font class="desc">&#x2798;</font><sub><span id="hover"> <font class="desc_small">hover</font></sub></span><font class="desc"> over the maps below and &#x21bb </font><sub><span id="refresh"> <font class="desc_small">refresh</font></span></sub> <font class="desc">the page</font></p>
 
 </div>
 
@@ -228,6 +228,12 @@ $(".item").on("load", function() {
     if(nImages == loadCounter) {
         $(".item").fadeIn(3000)
         setTimeout(function() {loadImage(0)},2000)
+        setTimeout(function() {
+        $("#refresh").attr("onmouseenter","location.reload()")
+        $("#hover").attr("onmouseenter","onHover('city_1_img')")
+        $("#hover").attr("onmouseleave","offHover('city_1_img')")
+      },1000)
+        
     }
 }).each(function() {
 

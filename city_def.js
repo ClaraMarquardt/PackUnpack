@@ -1,6 +1,6 @@
 // Parameter Def
-// online=false
-online=true
+online=false
+// online=true
 
 zoom_min=10
 zoom_max=19
@@ -350,6 +350,11 @@ c.textAlign = "start"
 c.textBaseline = "hanging"
 
 
+            c.fillStyle = "white";
+            
+            c.font = "9px Lucida Grande";
+             c.fillText("LOADING",50,50);
+
 var path = d3.geo.path()
     .projection(projection)
     .context(c);
@@ -359,13 +364,13 @@ var title = d3.select("h1");
 queue()
     .defer(d3.json, "../data/world-110m.json")
     .defer(d3.json, "../data/cities.geojson")
-   .defer(d3.json, "../data/cities_all.geojson")
+    .defer(d3.json, "../data/cities_all.geojson")
     .defer(d3.json, globe_data)
     .await(ready);
 
 function ready(error, world, cities_all_pop, cities_all, cities) {
   if (error) throw error;
-
+console.log("ready")
 var rScale = d3.scale.sqrt();
 var peoplePerPixel = 1000000;
 var max_population = [];
