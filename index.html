@@ -47,10 +47,10 @@ function onHover(city_tag)
        offHover(replace_array[i])
     }
 
-    // change to image tag
-     $('#'+city_tag_constant+'_img').replaceWith( '<iframe id="iframe_temp" class="main_frame" frameborder="0" width="190" height="20%" scrolling="no" allowtransparency="true" style="background-color: Black;">');
+      // change to image tag
+      $('#'+city_tag_constant+'_img').replaceWith( '<iframe id="iframe_temp" class="main_frame" frameborder="0" width="190" height="20%" scrolling="no" allowtransparency="true" style="background-color: Black;">');
 
-     $('#iframe_temp').attr("src",eval(city_tag_constant+'_vis'));
+      $('#iframe_temp').attr("src",eval(city_tag_constant+'_vis'));
 
       $('#iframe_temp').attr("onmouseenter",'onHover(this.id)');
       $('#iframe_temp').attr("onmouseleave","offHover(this.id)");

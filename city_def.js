@@ -18,7 +18,7 @@ var city_1_coordinate_1 = 52.2799
 var city_1_coordinate_2 = 8.0472
 
 if (online==true) {
-   var city_1_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_1+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_1_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_1+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_1_url = "image/map_img/image_1.png"
 }
@@ -34,7 +34,7 @@ var city_2_coordinate_1 = 50.0782
 var city_2_coordinate_2 = 8.2398
 
 if (online==true) {
-   var city_2_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_2+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_2_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_2+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_2_url = "image/map_img/image_2.png"
 }
@@ -50,7 +50,7 @@ var city_3_coordinate_1 = 51.2848
 var city_3_coordinate_2 = 9.6203
 
 if (online==true) {
-   var city_3_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_3+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_3_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_3+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_3_url = "image/map_img/image_3.png"
 }
@@ -66,7 +66,7 @@ var city_4_coordinate_1 = 49.0424
 var city_4_coordinate_2 = 8.4268
 
 if (online==true) {
-   var city_4_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_4+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_4_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_4+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_4_url = "image/map_img/image_4.png"
 }
@@ -82,7 +82,7 @@ var city_5_coordinate_1 = 49.0069
 var city_5_coordinate_2 = 8.4037
 
 if (online==true) {
-   var city_5_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_5+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_5_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_5+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_5_url = "image/map_img/image_5.png"
 }
@@ -98,7 +98,7 @@ var city_6_coordinate_1 = 55.6761
 var city_6_coordinate_2 = 12.5683
 
 if (online==true) {
-   var city_6_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_6+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_6_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_6+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_6_url = "image/map_img/image_6.png"
 }
@@ -114,7 +114,7 @@ var city_7_coordinate_1 = 49.0069
 var city_7_coordinate_2 = 8.4037
 
 if (online==true) {
-   var city_7_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_7+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_7_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_7+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_7_url = "image/map_img/image_7.png"
 }
@@ -130,7 +130,7 @@ var city_8_coordinate_1 = 50.1109
 var city_8_coordinate_2 = 8.6821
 
 if (online==true) {
-   var city_8_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_8+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_8_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_8+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_8_url = "image/map_img/image_8.png"
 }
@@ -146,7 +146,7 @@ var city_9_coordinate_1 = 39.0536
 var city_9_coordinate_2 = 121.7746
 
 if (online==true) {
-   var city_9_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_9+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_9_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_9+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_9_url = "image/map_img/image_9.png"
 }
@@ -162,7 +162,7 @@ var city_10_coordinate_1 = 39.9042
 var city_10_coordinate_2 = 116.4074
 
 if (online==true) {
-   var city_10_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_10+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_10_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_10+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_10_url = "image/map_img/image_10.png"
 }
@@ -178,7 +178,7 @@ var city_11_coordinate_1 = 38.914
 var city_11_coordinate_2 = 121.6147
 
 if (online==true) {
-   var city_11_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_11+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_11_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_11+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_11_url = "image/map_img/image_11.png"
 }
@@ -194,7 +194,7 @@ var city_12_coordinate_1 = 33.7688
 var city_12_coordinate_2 = 106.0878
 
 if (online==true) {
-   var city_12_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_12+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_12_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_12+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_12_url = "image/map_img/image_12.png"
 }
@@ -210,7 +210,7 @@ var city_13_coordinate_1 = 39.9042
 var city_13_coordinate_2 = 116.4074
 
 if (online==true) {
-   var city_13_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_13+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_13_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_13+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_13_url = "image/map_img/image_13.png"
 }
@@ -226,7 +226,7 @@ var city_14_coordinate_1 = 52.2053
 var city_14_coordinate_2 = 0.1218
 
 if (online==true) {
-   var city_14_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_14+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_14_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_14+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_14_url = "image/map_img/image_14.png"
 }
@@ -243,7 +243,7 @@ var city_15_coordinate_1 = 11.556374
 var city_15_coordinate_2 = 104.9282
 
 if (online==true) {
-   var city_15_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_15+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_15_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_15+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_15_url = "image/map_img/image_16.png"
 }
@@ -259,7 +259,7 @@ var city_16_coordinate_1 = 51.5074
 var city_16_coordinate_2 = -0.1278
 
 if (online==true) {
-   var city_16_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_16+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_16_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_16+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_16_url = "image/map_img/image_15.png"
 }
@@ -276,7 +276,7 @@ var city_17_coordinate_1 = 42.3736
 var city_17_coordinate_2 = -71.1097
 
 if (online==true) {
-   var city_17_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_17+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_17_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_17+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_17_url = "image/map_img/image_17.png"
 }
@@ -292,7 +292,7 @@ var city_18_coordinate_1 = 37.7749
 var city_18_coordinate_2 = -122.4194
 
 if (online==true) {
-   var city_18_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_18+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_18_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_18+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_18_url = "image/map_img/image_18.png"
 }
@@ -308,7 +308,7 @@ var city_19_coordinate_1 = 42.3876
 var city_19_coordinate_2 = -71.0995
 
 if (online==true) {
-   var city_19_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_19+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_19_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_19+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_19_url = "image/map_img/image_19.png"
 }
@@ -324,7 +324,7 @@ var city_20_coordinate_1 = 41.8781
 var city_20_coordinate_2 = -87.6298
 
 if (online==true) {
-   var city_20_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_20+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w"
+   var city_20_url = "https://maps.googleapis.com/maps/api/staticmap?center="+city_20+"&zoom="+zoom+"&size=600x300&maptype=satellite&key=AIzaSyCCKMOALZVLRe3EGqgrs8x5EtSdEzGgue8"
 } else {
    var city_20_url = "image/map_img/image_20.png"
 }
